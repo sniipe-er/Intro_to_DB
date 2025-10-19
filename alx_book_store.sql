@@ -16,7 +16,7 @@ CREATE TABLE Books (
 
 CREATE TABLE Customers (
     customer_id INT PRIMARY KEY,
-    customer_name VARCHAR(125),
+    customer_name VARCHAR(215),
     email VARCHAR(215),
     address TEXT
 );
